@@ -36,7 +36,7 @@ import matplotlib.pyplot as plt
 # Create the Text using cv2.putText
 img1=np.zeros((100,300),dtype='uint8')
 font=cv2.FONT_HERSHEY_COMPLEX
-im=cv2.putText(img1,'VINCENT',(5,65),font,2,(255),5,cv2.LINE_AA)
+im=cv2.putText(img1,'GRAHAM',(5,65),font,2,(255),5,cv2.LINE_AA)
 plt.imshow(im)
 
 # Create the structuring element
