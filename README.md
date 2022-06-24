@@ -39,7 +39,7 @@ import matplotlib.pyplot as plt
 # Create the Text using cv2.putText
 img=np.zeros((100,450),dtype='uint8')
 font=cv2.FONT_ITALIC
-cv2.putText(img,'Graham Stanes',(5,70),font,2,(255),5,cv2.LINE_AA)
+cv2.putText(img,'Stanes',(5,70),font,2,(255),5,cv2.LINE_AA)
 plt.axis('off')
 plt.imshow(img)
 plt.show()
@@ -65,14 +65,17 @@ plt.show()
 ## OUTPUT:
 
 ### Display the input Image
-![1](https://user-images.githubusercontent.com/75235488/172897744-565ee9b1-22e4-48ba-9134-50d2ce90dd0c.png)
+![WhatsApp Image 2022-06-24 at 11 17 35 PM](https://user-images.githubusercontent.com/75235150/175615034-90b5469a-6692-46c7-bba6-4feef66460b1.jpeg)
+
 
 ### Display the result of Opening
-![2](https://user-images.githubusercontent.com/75235488/172897776-5ce5e28a-6442-43c4-9649-3cb34f13d285.png)
+![WhatsApp Image 2022-06-24 at 11 17 35 PM (2)](https://user-images.githubusercontent.com/75235150/175615070-516ea6d7-408f-4640-a1fd-7e03a6fedc2f.jpeg)
+
 
 ### Display the result of Closing
 
-![3](https://user-images.githubusercontent.com/75235488/172897813-d30e7b2a-eaf1-4f2e-ae51-62ddf1cc404c.png)
+![WhatsApp Image 2022-06-24 at 11 17 35 PM (1)](https://user-images.githubusercontent.com/75235150/175615103-62d705b5-eecd-4b41-b040-acfba79f9af6.jpeg)
+
 
 ## RESULT:
 Thus the Opening and Closing operation is used in the image using python and OpenCV.
